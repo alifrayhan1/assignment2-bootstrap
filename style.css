@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+  span {
+    color: #8a47f6;
+  }
+}
+#about {
+  background-color: #efe4ff;
+
+  span {
+    color: #8a47f6;
+  }
+}
+#aboutimg {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#aboutimg1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  height: 100%;
+  width: 100%;
+}
+#aboutimg2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  height: 100%;
+  width: 100%;
+}
+#aboutimg3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  height: 100%;
+  width: 100%;
+}
+
+#Portfolio {
+  a {
+    color: #000;
+  }
+  span {
+    color: #8a47f6;
+  }
+  #childrens {
+    color: #8a47f6;
+    text-decoration: underline;
+  }
+}
+#port {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+#port1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: 100%;
+  width: 100%;
+}
+#port2 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+#port3 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  height: 100%;
+  width: 100%;
+}
+#port4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 100%;
+  width: 100%;
+}
+#port5 {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+}
+#port7 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  height: 100%;
+  width: 100%;
+}
+#port6 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  height: 100%;
+  width: 100%;
+}
+#port8 {
+  grid-column: 4/5;
+  grid-row: 3/5;
+  height: 100%;
+  width: 100%;
+}
+#port9 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  height: 100%;
+  width: 100%;
+}
+#port10 {
+  grid-column: 2/4;
+  grid-row: 4/5;
+  height: 100%;
+  width: 100%;
+}
+.card{
+    width: 300px;
+}
+#Clients{
+    background-color: #efe4ff;
+}
+#imgbutton{
+    background-color: #cfb1ff;
+    height: 40px;
+}
+#insta{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+#insta1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    height: 100%;
+    width: 100%;
+}
+#insta2{
+    grid-row: 2/4;
+    grid-column: 1/3;
+    height: 100%;
+    width: 100%;
+}
+#insta3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+}
+#insta4{
+    grid-row: 1/3;
+    grid-column: 4/5;
+    height: 100%;
+    width: 100%;
+}
+#insta5{
+    grid-row: 2/4;
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+#insta6{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    height: 100%;
+    width: 100%;
+}
+#touch{
+  background-color: #efe4ff;
+}
